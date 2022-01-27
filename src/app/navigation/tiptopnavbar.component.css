@@ -1,0 +1,31 @@
+.text-right{
+    min-height: 25px;
+    height: 28px;
+}
+.border-end{
+    position: sticky;
+    height: 20px;
+}
+.dsg{
+    height: min-content;
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+.dsg:hover{
+    border-bottom: 4px;
+    border-bottom-color: rgb(148, 12, 39);
+    border-bottom-width: 10px;
+    font-weight: bold;
+}
+.dsg1{
+    height: min-content;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.dsg1:hover{
+    border-bottom: 4px;
+    border-bottom-color: rgb(148, 12, 39);
+    border-bottom-width: 10px;
+    font-weight: normal;
+}

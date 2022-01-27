@@ -1,3 +1,8 @@
 .input-group{
-    position: inherit;
+    width: 6in;
+    padding-top: 18px;
+}
+.navbar-brand{
+    padding: 15px;
+    padding-left: 30px;
 }
