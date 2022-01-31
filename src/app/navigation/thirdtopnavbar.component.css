@@ -1,0 +1,15 @@
+a.nav-link.active{
+    
+}
+a.nav-link.active:hover{
+    border-bottom-style: solid;
+    border-color: rgb(148, 12, 39);
+    border-width: 7px;
+}
+ul.navbar-nav.container-fluid{
+    justify-content: center;
+}
+li.nav-item{
+    padding: 25px;
+    padding-top: 0px;
+}

@@ -1,6 +1,18 @@
+.form-control{
+    max-width: 9.5in;
+    width: 9.5in;
+    max-height: 100px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+.bi{
+    position: absolute;
+}
 .input-group{
-    width: 6in;
-    padding-top: 18px;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
 }
 .navbar-brand{
     padding: 15px;
