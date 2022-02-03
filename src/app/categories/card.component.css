@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #006554;
+}
+.my-btn{
+    color: white;
+}
+.btn-container{
+    justify-content: center;
+
+}
+.border-end{
+    position: relative;
+    height: 40px;
+    color: white;
+}

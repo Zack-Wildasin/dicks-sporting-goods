@@ -8,6 +8,8 @@ a.nav-link.active:hover{
 }
 ul.navbar-nav.container-fluid{
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 li.nav-item{
     padding: 25px;
