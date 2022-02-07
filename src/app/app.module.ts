@@ -7,6 +7,7 @@ import { thirdTopNavBar } from './navigation/thirdtopnavbar.component';
 import { TipTopNavBar } from './navigation/tiptopnavbar.component';
 import { TopNavBar } from './navigation/topnavbar.component';
 import { CardComponent } from './categories/card.component';
+import { HIYACardComponent } from './categories/HIYAcard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CardComponent } from './categories/card.component';
     TipTopNavBar,
     thirdTopNavBar,
     CardComponent,
-    firstcarousel
+    firstcarousel,
+    HIYACardComponent
   ],
   imports: [
     BrowserModule

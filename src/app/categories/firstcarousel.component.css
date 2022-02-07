@@ -4,3 +4,8 @@
     width: 20px;
     background-color: rgb(218, 120, 0);
 }
+
+.carousel-indicators{
+    bottom: -100px;
+    margin-top: 100px;
+}
