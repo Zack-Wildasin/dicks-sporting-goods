@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { SportsLayoutComponent } from './categories/sports-layout.component';
-import { HomeLayoutComponent } from './categories/home-layout.component';
+import { SportsLayoutComponent } from './categories/Sports/sports-layout.component';
+import { HomeLayoutComponent } from './categories/Home/home-layout.component';
 import { WomensLayoutComponent } from './categories/Womens/womens-layout.component';
 import { MensLayoutComponent } from './categories/Mens/mens-layout.component';
 import { KidsLayoutComponent } from './categories/Kids/kids-layout.component';
