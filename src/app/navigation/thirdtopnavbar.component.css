@@ -1,6 +1,3 @@
-a.nav-link.active{
-    
-}
 a.nav-link.active:hover{
     border-bottom-style: solid;
     border-color: rgb(148, 12, 39);

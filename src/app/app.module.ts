@@ -8,6 +8,12 @@ import { TipTopNavBar } from './navigation/tiptopnavbar.component';
 import { TopNavBar } from './navigation/topnavbar.component';
 import { CardComponent } from './categories/card.component';
 import { HIYACardComponent } from './categories/HIYAcard.component';
+import { AppRoutingModule } from './app-routing.module';
+import { SportsLayoutComponent } from './categories/sports-layout.component';
+import { HomeLayoutComponent } from './categories/home-layout.component';
+import { WomensLayoutComponent } from './categories/Womens/womens-layout.component';
+import { MensLayoutComponent } from './categories/Mens/mens-layout.component';
+import { KidsLayoutComponent } from './categories/Kids/kids-layout.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +23,16 @@ import { HIYACardComponent } from './categories/HIYAcard.component';
     thirdTopNavBar,
     CardComponent,
     firstcarousel,
-    HIYACardComponent
+    HIYACardComponent,
+    SportsLayoutComponent,
+    HomeLayoutComponent,
+    WomensLayoutComponent,
+    MensLayoutComponent,
+    KidsLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
