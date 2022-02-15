@@ -1,0 +1,9 @@
+Main Features:
+ •Created following layout components
+     o “home-layout.component”
+     o “sports-layout.component”
+     o “womens-layout.component”
+     o “mens-layout.component”
+     o “kids-layout.component”
+ •Added Routing to each of the above components inside of the “thirdtopnavbar.component.html” class
+     o Clicking on the ‘sports, womens, mens, kids’ dropdown will take you to the respective pages
