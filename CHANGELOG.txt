@@ -1,4 +1,4 @@
-Main Features:
+Main Features: Lab 4
  •Created following layout components
      o “home-layout.component”
      o “sports-layout.component”
@@ -7,3 +7,10 @@ Main Features:
      o “kids-layout.component”
  •Added Routing to each of the above components inside of the “thirdtopnavbar.component.html” class
      o Clicking on the ‘sports, womens, mens, kids’ dropdown will take you to the respective pages
+Main Features: Lab 5
+ •Created following layout components
+     o “sports-navbar.component”
+     o “womens-navbar.component”
+     o added a carousel button at the top of each page
+     o added a picture on each
+
