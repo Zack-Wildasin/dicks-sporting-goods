@@ -14,6 +14,7 @@ import { HomeLayoutComponent } from './categories/Home/home-layout.component';
 import { WomensLayoutComponent } from './categories/Womens/womens-layout.component';
 import { MensLayoutComponent } from './categories/Mens/mens-layout.component';
 import { KidsLayoutComponent } from './categories/Kids/kids-layout.component';
+import { SportsNavbarComponent } from './categories/Sports/side-navbar/sports-navbar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { KidsLayoutComponent } from './categories/Kids/kids-layout.component';
     HomeLayoutComponent,
     WomensLayoutComponent,
     MensLayoutComponent,
-    KidsLayoutComponent
+    KidsLayoutComponent,
+    SportsNavbarComponent
   ],
   imports: [
     BrowserModule,
