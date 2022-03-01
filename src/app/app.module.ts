@@ -15,6 +15,8 @@ import { WomensLayoutComponent } from './categories/Womens/womens-layout.compone
 import { MensLayoutComponent } from './categories/Mens/mens-layout.component';
 import { KidsLayoutComponent } from './categories/Kids/kids-layout.component';
 import { SportsNavbarComponent } from './categories/Sports/side-navbar/sports-navbar.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule  } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -30,11 +32,13 @@ import { SportsNavbarComponent } from './categories/Sports/side-navbar/sports-na
     WomensLayoutComponent,
     MensLayoutComponent,
     KidsLayoutComponent,
-    SportsNavbarComponent
+    SportsNavbarComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
