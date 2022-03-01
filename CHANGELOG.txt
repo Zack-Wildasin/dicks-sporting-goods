@@ -13,4 +13,12 @@ Main Features: Lab 5
      o “womens-navbar.component”
      o added a carousel button at the top of each page
      o added a picture on each
-
+Main Features: Lab 6
+ •Created following layout components
+     o "user-info.component"
+     o “user-info.model”
+     o added attributes
+        Firstname
+        Lastname
+        GitHub
+        Mix_Id
