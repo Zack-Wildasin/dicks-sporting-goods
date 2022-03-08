@@ -10,6 +10,14 @@
 
 <dsg-first-carousel>Loading...</dsg-first-carousel>
 
-<div class="m-5">
-    <dsg-HIYAcard>Loading...</dsg-HIYAcard>
+<div class="container-fluid d-flex">
+    <div *ngFor="let product of products">
+        <dsg-HIYAcard class="m-5" 
+        img={{product.img}}
+        [price]='product.price'
+        [rating]='product.rating'
+        description={{product.description}}>
+            Loading...
+        </dsg-HIYAcard>
+    </div>
 </div>

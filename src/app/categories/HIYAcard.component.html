@@ -1,77 +1,12 @@
-<div class="card-group">
-  <div class="d-flex flex-row flex-nowrap overflow-auto">
+<div class="row row-cols-1 row-cols-3">
+  <div class="col-2">
     <div class="card">
-      <img src="assets/card1.png" class="card-img-top" height="100" width="10">
-      <div class="ratings container-fluid">
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-half" />
-        </svg>
-      </div>
+      <img src={{img}} class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Women's Nike Shoes</h5>
-        <p class="card-text">${{price}}</p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="assets/card2.png" class="card-img-top" height="100" width="10">
-      <div class="ratings container-fluid">
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Men's Nike Shoes</h5>
-        <p class="card-text">${{price}}</p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="assets/card3.png" class="card-img-top" height="100" width="30">
-      <div class="ratings container-fluid">
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-fill" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star-half" />
-        </svg>
-        <svg class="bi" width="20" height="20" fill="currentColor">
-          <use xlink:href="assets/bootstrap-icons.svg#star" />
-        </svg>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Men's Nike Sweatpants</h5>
-        <p class="card-text">${{price}}</p>
+        <h5 class="card-title">${{price}}</h5>
+        <p class="card-text">({{rating}})</p>
+        <p class="card-text">{{description}}</p>
       </div>
     </div>
   </div>
-
 </div>

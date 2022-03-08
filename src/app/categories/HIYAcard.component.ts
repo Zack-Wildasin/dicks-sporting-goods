@@ -9,8 +9,8 @@ import { Component, Input } from "@angular/core";
 export class HIYACardComponent{
     @Input() img: string;
     @Input() price: number;
-    rating: number;
-    description: string;
+    @Input() rating: number;
+    @Input() description: string;
 
     constructor(){
         this.img = "";
