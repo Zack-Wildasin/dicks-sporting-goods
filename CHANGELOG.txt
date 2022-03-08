@@ -7,12 +7,14 @@ Main Features: Lab 4
      o “kids-layout.component”
  •Added Routing to each of the above components inside of the “thirdtopnavbar.component.html” class
      o Clicking on the ‘sports, womens, mens, kids’ dropdown will take you to the respective pages
+     
 Main Features: Lab 5
  •Created following layout components
      o “sports-navbar.component”
      o “womens-navbar.component”
      o added a carousel button at the top of each page
      o added a picture on each
+     
 Main Features: Lab 6
  •Created following layout components
      o "user-info.component"
@@ -22,3 +24,15 @@ Main Features: Lab 6
         Lastname
         GitHub
         Mix_Id
+        
+Main Features: Lab 7
+ •Created following components
+     o “product_list.ts”
+     o “product-item.model.ts”
+     o “product.service.ts”
+ •Moved all mock data (4 products w/ attributes) to backend, created a service, used the service with my HIYA card component
+Bonus Features: Lab 7
+ •Created product_list.ts (lab 3 assignment)
+     o Implemented ngFor loop to programmatically add product cards
+     o Created new product card by adding attributes to product_list and moving backend
+     o Also created product-item.model.ts
