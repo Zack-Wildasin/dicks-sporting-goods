@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "dicks-sporting-goods-c8c42"
+  },
+  "targets": {
+    "dicks-sporting-goods-c8c42": {
+      "hosting": {
+        "dicks-sporting-goods": [
+          "dicks-sporting-goods-c8c42"
+        ]
+      }
+    }
   }
 }
