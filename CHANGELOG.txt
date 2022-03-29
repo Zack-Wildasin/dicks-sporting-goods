@@ -51,4 +51,4 @@ Main Features: Lab 8
         data to the backend
      o Any data that is input on the admin page in the form will be
         pushed to the backend
- •Added another card component on the homepage using my new admin form
+ •Added another card component on the homepage using my new admin form 
