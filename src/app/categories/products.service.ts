@@ -19,4 +19,8 @@ export class ProductService{
     public getProduct(index:number){
         
     }
+
+    public addProduct(product : ProductItemModel){
+        this.db.list<ProductItemModel>("products").push(product);
+    }
 }

@@ -1,0 +1,47 @@
+<dsg-tiptopnavbar>Loading...</dsg-tiptopnavbar>
+
+<dsg-topnavbar>Loading...</dsg-topnavbar>
+
+<dsg-thirdtopnavbar>Loading...</dsg-thirdtopnavbar>
+
+<dsg-firstcard>Loading...</dsg-firstcard>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Price:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="price">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Rating:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="rating">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+
+                <button type="submit" class="btn btn-light">Add Product</button>
+
+            </form>
+        </div>
+    </div>
+</div>
