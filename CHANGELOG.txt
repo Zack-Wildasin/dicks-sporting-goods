@@ -36,3 +36,10 @@ Bonus Features: Lab 7
      o Implemented ngFor loop to programmatically add product cards
      o Created new product card by adding attributes to product_list and moving backend
      o Also created product-item.model.ts
+     
+Main Features: Lab 8
+ •Created following components
+     o “firebase.json”
+     o "dist/dicks-sporting-goods" folder
+     o Changed from HTTPclient to firebase 
+ •Deployed website
