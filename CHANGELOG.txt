@@ -43,3 +43,12 @@ Main Features: Lab 8
      o "dist/dicks-sporting-goods" folder
      o Changed from HTTPclient to firebase 
  •Deployed website
+ 
+ Main Features: Lab 9
+ •Created following components
+     o “add-product.component”
+     o Added method to service component that sends inputed 
+        data to the backend
+     o Any data that is input on the admin page in the form will be
+        pushed to the backend
+ •Added another card component on the homepage using my new admin form 
