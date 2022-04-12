@@ -7,6 +7,7 @@ import { WomensLayoutComponent } from './categories/Womens/womens-layout.compone
 import { MensLayoutComponent } from './categories/Mens/mens-layout.component';
 import { KidsLayoutComponent } from './categories/Kids/kids-layout.component';
 import { AddProductComponent } from './store/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -15,7 +16,8 @@ const routes:Routes = [
   {path: 'Womens', component: WomensLayoutComponent},
   {path: 'Mens', component: MensLayoutComponent},
   {path: 'Kids', component: KidsLayoutComponent},
-  {path: 'admin', component: AddProductComponent}
+  {path: 'admin', component: AddProductComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 
 @NgModule({
