@@ -52,3 +52,13 @@ Main Features: Lab 8
      o Any data that is input on the admin page in the form will be
         pushed to the backend
  •Added another card component on the homepage using my new admin form 
+ 
+  Main Features: Lab 10
+ •Created following components
+     o “authentication.component”
+     o “authentication.service.component”
+     o Added method to service component that sends inputed 
+        data to the backend
+     o Any data that is input on the auth page in the form will be
+        pushed to the backend
+     • Created authentication in the backend and changed rules for access
