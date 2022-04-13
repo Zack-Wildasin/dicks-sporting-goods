@@ -6,7 +6,7 @@ import { environment } from "src/environments/environment";
     providedIn: 'root'
 })
 
-export class AuthentificationService{
+export class AuthenticationService{
     baseUrl:string = "https://identitytoolkit.googleapis.com/v1/accounts";
     signUpEndpoint:string = "signUp";
 

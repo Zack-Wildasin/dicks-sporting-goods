@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ConnectableObservable } from 'rxjs';
-import { AuthentificationService } from './authentication.service';
+import { AuthenticationService } from './authentication.service';
+
 
 @Component({
   selector: 'dsg-authentication',
@@ -10,14 +11,14 @@ import { AuthentificationService } from './authentication.service';
 })
 export class AuthenticationComponent implements OnInit {
 
-  constructor(private auth: AuthentificationService) { }
+  constructor(private auth:AuthenticationService) { }
 
   ngOnInit(): void {
   }
 
   onSubmit(data:NgForm) {
     console.log("Button Clicked");
-    console.log(data);
+    console.log(data.value);
     this.auth.signup(data.value.email, data.value.password).subscribe(
       data => {
         console.log(data);
